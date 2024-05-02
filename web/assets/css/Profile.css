@@ -1,0 +1,147 @@
+.header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    padding-left: 145px;
+    padding-top: 5px;
+    width: 200px;
+    height: 50px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+    height: 1000px;
+    background: rgb(247,250,252);
+    display: flex;
+    justify-content: center;
+}
+
+/* menu left */
+.container .container-left{
+    width: 400px;
+    height: 700px;
+    background: white;
+    margin-top: 20px;
+}
+.container-left .menu{
+    width: 400px;
+    text-align: center;
+}
+.container-left .menu img{
+    width: 200px;
+    height: 200px;
+    margin-top: 70px;
+}
+.container-left .menu  a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+.container-left .menu button{
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    border: none;
+}
+.container-left .menu .btn1{
+    background: green;
+}
+.container-left .menu .btn2{
+    background: red;
+}
+/* right */
+.container .container-right{
+    width: 1000px;
+    height: 700px;
+
+    background: white;
+
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container-right .title{
+    font-size: 20px;
+
+    width: 950px;
+    height: 65px;
+
+    margin-top: 20px;
+    margin-left: 25px;
+    border-bottom: 1px solid rgba(0,0,0, 0.5);
+}
+.container-right .title .title1{
+    font-size: 25px;
+}
+.container-right .content{
+    justify-content: center;
+    display: flex;
+}
+.container-right .content .left{
+    margin-top: 15px;
+    width: 475px;
+    height: 550px;
+}
+
+.container-right .content .right
+{
+    border-left: 1px solid rgba(0,0,0, 0.5);
+    margin-top: 15px;
+    width: 400px;
+    height: 400px;
+    margin-left: 75px;
+}
+
+.container-right .content .left .menu-left .title2{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.container-right .content .left .menu-left input{
+    margin-top: 10px;
+    width: 470px;
+    height: 30px;
+    outline: none;
+        border: 1px solid #ccc;
+}
+
+.container-right .content .left .menu-left .btn{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+
+    border: none;
+    cursor: pointer;
+
+    color: white;
+    background: #ee4d2d;
+    
+    margin-left: 20px;
+}
+
+.container-right .content .left .menu-left .btn2{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+
+    border: none;
+    cursor: pointer;
+
+    color: white;
+    background: green;
+}
+
+.container-right .content .right{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container-right .content .right input{
+    margin-top: 50px;
+}

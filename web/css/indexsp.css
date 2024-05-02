@@ -1,0 +1,3624 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 29, 2023, 1:03:17 PM
+    Author     : ASUS
+*/
+
+
+.webgridview-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.webgridview-webgridview {
+  width: 100%;
+  height: 2351px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-default-gray100);
+}
+.webgridview-contenttop {
+  top: 596px;
+  left: 437px;
+  width: 976px;
+  height: 62px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.webgridview-text {
+  top: 23px;
+  left: 20.64391326904297px;
+  color: #595959;
+  width: 212px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-btngroup {
+  top: 11px;
+  left: 883px;
+  width: 80.10395050048828px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border: 2px solid #999999;
+  border-radius: 5px
+}
+#webgridview-buttonbtngroup {
+  top: 0px;
+  left: 40.05193328857422px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+    
+}
+#webgridview-buttonbtngroup1 {
+  top: 0px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+   cursor: pointer;
+    
+}
+#webgridview-buttonbtngroup i:hover{
+    color: #595959
+}
+#webgridview-buttonbtngroup1 i:hover{
+    color: #595959
+}
+.webgridview-text002 {
+  top: 23px;
+  left: 232.81764221191406px;
+  color: var(--dl-color-default-primary);
+  width: 158px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+  cursor: pointer;
+}
+.layout-hearder{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.webgridview-layoutnavbaralibaba {
+    top: 86px;
+  left: 0px;
+  width: 1520px;
+  height: 56px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-bg {
+  top: 0px;
+  left: 0px;
+  width: 1520px;
+  height: 56px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+.webgridview-line61 {
+  top: 56px;
+  left: 0px;
+  width: 1520px;
+  height: 1px;
+  position: absolute;
+}
+.webgridview-border {
+  top: 0px;
+  left: 1520px;
+  width: 1520px;
+  height: 1px;
+  position: absolute;
+}
+.webgridview-navlist>li>a{
+	position: relative;
+}
+.webgridview-navlist>li>a::before{
+	content: "";
+	height: 3px;
+	background-color: rgb(0, 0, 128);
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	transform: 0,25s scale()
+}
+.webgridview-navlist>li:hover>a::before{
+	width: 75%;
+	left: 15px;
+}
+.webgridview-navlist li{
+	list-style: none;
+	position: relative;  
+}
+.webgridview-navlist li a{
+	display: block;
+	padding: 18px 30px;
+	text-decoration: none;
+}
+.webgridview-navlist ul.sub-menu{
+	position: absolute;
+	background-color:white;
+	padding: 15px 0px;
+	list-style: none;
+	width: 200px;
+	color: rgb(0, 0, 160);
+	display: none;
+	z-index: 2; 
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.webgridview-navlist li:hover>ul.sub-menu{
+	display: block;
+}
+.webgridview-navlist li:hover>.fa-chevron-down {
+    transform: rotate(180deg);
+}
+.fa-chevron-down {
+  transition: all 0.3s;
+}
+.webgridview-navlist ul.sub-menu a{
+	border-bottom: 1px solid lightgrey;	
+}
+.webgridview-navlist ul.sub-menu li:hover>a{
+	border-bottom: 1px solid dimgray;	
+}
+
+.webgridview-navlist {
+  top: 0px;
+  left: 137.22222900390625px;
+  width: 473.66668701171875px;
+  height: 25px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text004 {
+  left: 411.66668701171875px;
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 22px;
+}
+.webgridview-text006 {
+  left: 264.9444274902344px;
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 22px;
+}
+.webgridview-product {
+  top: 1px;
+  left: 127.72222900390625px;
+  width: 89.72219848632812px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text008 {
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 22px;
+}
+.webgridview-iconcontrolexpandmore {
+  top: 0px;
+  left: 64.38888549804688px;
+  width: 25px;
+  height: 24px;
+  position: absolute;
+}
+.webgridview-text010 {
+  top: 1px;
+  left: 31.666656494140625px;
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 22px;
+}
+.webgridview-iconcontrolmenu {
+  top: 0px;
+  left: 0px;
+  width: 25px;
+  height: 24px;
+  position: absolute;
+}
+.webgridview-layoutheaderalibaba {
+  width: 1520px;
+  height: 86px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.webgridview-bg1 {
+  top: 0px;
+  left: 0px;
+  width: 1520px;
+  height: 86px;
+  position: absolute;
+}
+.webgridview-actions {
+  top: 33px;
+  left: 1259.22216796875px;
+  width: 200px;
+  height: 41px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-cart {
+  top: 0px;
+  left: 140px;
+  width: 100px;
+  height: 45px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  cursor: pointer;
+}
+.webgridview-vector {
+  top: 0px;
+  left: 11.6666259765625px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.webgridview-text012 {
+  top: 30px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.webgridview-profile {
+  top: 0px;
+  left: 0px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  cursor: pointer;
+}
+.webgridview-text014 {
+  top: 30px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.webgridview-vector1 {
+  top: 0px;
+  left: 7.4444580078125px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.webgridview-searchform {
+  top: 19px;
+  left: 395.8333435058594px;
+  width: 701.9444580078125px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-forminputgroupinputleft {
+  top: var(--dl-space-space-halfunit);
+  left: 7px;
+  width: 596px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-iconcontrolsearch {
+  top: 8px;
+  left: 8px;
+  width: 22px;
+  bottom: 0px;
+  height: 24px;
+  position: absolute;
+}
+.webgridview-textinput {
+  width: 603px;
+  height: 100%;
+  padding-left: 35px;
+}
+.webgridview-buttonbtngroup2 {
+  top: 8px;
+  left: 603px;
+  width: 105.55560302734375px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: var(--dl-radius-radius-radius4);
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(180deg, rgba(18, 127, 255, 1) 0%, rgba(0, 103, 255, 1) 100%);
+
+}
+.webgridview-svg-background {
+  top: 0px;
+  left: 0px;
+  width: 106px;
+  height: 40px;
+  position: absolute;
+}
+.webgridview-buttonbasetextmd {
+  gap: 10px;
+  top: 11px;
+  left: 10px;
+  width: 86px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.webgridview-text016 {
+  color: var(--dl-color-default-white);
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+.webgridview-brandlogocolored {
+  top: 20px;
+  left: 137.22222900390625px;
+  width: 184px;
+  height: 59px;
+  position: absolute;
+}
+
+
+/*.webgridview-layoutproductcard13 {
+    top: 692px;
+  left: 440px;
+  width: 295px;
+  height: 432px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-gray-white);
+}
+.webgridview-rating {
+  top: 278.4096984863281px;
+  left: 13.62158203125px;
+  width: 108px;
+  height: 20.266666412353516px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-miscrating {
+  top: 1.0666651725769043px;
+  left: 0px;
+  width: 80px;
+  height: 16px;
+  position: absolute;
+}
+.webgridview-text018 {
+  left: 86px;
+  color: var(--dl-color-base-color-orange);
+  width: 22px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-buttonbtnbasic {
+  top: 239.0410919189453px;
+  left: 239.62158203125px;
+  width: 40px;
+  height: 42.66666793823242px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.07999999821186066) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+  cursor: pointer;
+}
+.webgridview-buttonbtnbasic:hover{
+	background-color: rgb(34, 108, 245);
+}
+.webgridview-buttonbtnbasic:hover i{
+	color:white;
+}
+.fa-heart {
+  top: 14px;
+  left: 9px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  color: rgb(34, 108, 245);
+}*/
+.webgridview-iconcontrolfavoriteborder {
+  top: 9px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.webgridview-border1 {
+  top: 223.8545379638672px;
+  left: 0px;
+  width: 295px;
+  height: 1px;
+  position: absolute;
+}
+.webgridview-imagetech1 {
+  top: 8px;
+  left: 60px;
+  width: 180px;
+  height: 199px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.webgridview-image33 {
+  top: 0px;
+  left: -10px;
+  width: 210px;
+  height: auto;
+  position: absolute;
+}
+/*
+.webgridview-text020 {
+  top: 313.7648620605469px;
+  left: 13.553955078125px;
+  color: var(--dl-color-base-color-gray800);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.webgridview-group1000 {
+  top: 244.2764129638672px;
+  left: 13.62158203125px;
+  width: 140px;
+  height: 24.53333282470703px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text022 {
+  color: var(--dl-color-default-dark);
+  width: 63px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-text024 {
+  top: 4.266656398773193px;
+  left: 71px;
+  color: var(--dl-color-default-gray500);
+  width: 69px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: line-through;
+}
+.webgridview-buttonbtnbasic01 {
+  top: 30px;
+  left: 14px;
+  width: 139px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+  color: rgb(34, 108, 245);
+  cursor: pointer;
+}
+.webgridview-buttonbtnbasic01:hover{
+	color: white;
+	background-color:rgb(34, 108, 245);
+}
+.webgridview-buttonbtnbasic01:hover i{
+	color: white;
+	background-color:rgb(34, 108, 245);
+}
+.text-view-details{
+  margin-top: 9px;
+  margin-left: 20%;
+  font-size: 15px;
+}
+.fa-solid{
+  top: 12px;
+  left: 10px;
+  width: 15px;
+  height: 18px;
+  position: absolute;
+  color: rgb(34, 108, 245);
+}
+*/
+.webgridview-iconcontrolchevronright {
+  top: 8px;
+  left: 7px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.webgridview-buttonbasetextmd01 {
+  gap: 10px;
+  top: 7px;
+  left: 36px;
+  width: 94px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.webgridview-text026 {
+  color: var(--dl-color-default-primary);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-layoutproductcard131 {
+  top: 1170px;
+  left: 440px;
+  width: 295px;
+  height: 432px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-gray-white);
+}
+.webgridview-rating1 {
+  top: 278.4096984863281px;
+  left: 13.62158203125px;
+  width: 108px;
+  height: 20.266666412353516px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-miscrating01 {
+  top: 1.0666651725769043px;
+  left: 0px;
+  width: 80px;
+  height: 16px;
+  position: absolute;
+}
+.webgridview-text028 {
+  left: 86px;
+  color: var(--dl-color-base-color-orange);
+  width: 22px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-buttonbtnbasic02 {
+  top: 239.0410919189453px;
+  left: 239.62158203125px;
+  width: 40px;
+  height: 42.66666793823242px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.07999999821186066) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+}
+.webgridview-iconcontrolfavoriteborder1 {
+  top: 9px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.webgridview-border2 {
+  top: 223.8545379638672px;
+  left: 0px;
+  width: 295px;
+  height: 1px;
+  position: absolute;
+}
+.webgridview-imagetech2 {
+  top: 8px;
+  left: 60px;
+  width: 180px;
+  height: 199px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.webgridview-image32 {
+  top: 13.266666412353516px;
+  left: 12px;
+  width: 155px;
+  height: 172px;
+  position: absolute;
+}
+.webgridview-text030 {
+  top: 313.7648620605469px;
+  left: 13.553955078125px;
+  color: var(--dl-color-base-color-gray800);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.webgridview-group10001 {
+  top: 244.2764129638672px;
+  left: 13.62158203125px;
+  width: 140px;
+  height: 24.53333282470703px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text032 {
+  color: var(--dl-color-default-dark);
+  width: 63px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-text034 {
+  top: 4.266656398773193px;
+  left: 71px;
+  color: var(--dl-color-default-gray500);
+  width: 69px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: line-through;
+}
+.webgridview-buttonbtnbasic03 {
+  top: 376px;
+  left: 14px;
+  width: 139px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+}
+.webgridview-iconcontrolchevronright1 {
+  top: 9px;
+  left: 9px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.webgridview-buttonbasetextmd02 {
+  gap: 10px;
+  top: 7px;
+  left: 36px;
+  width: 94px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.webgridview-text036 {
+  color: var(--dl-color-default-primary);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-layoutproductcard132 {
+  top: 692px;
+  left: 777px;
+  width: 295px;
+  height: 435px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-gray-white);
+}
+.webgridview-rating2 {
+  top: 280.3431091308594px;
+  left: 13.62158203125px;
+  width: 108px;
+  height: 20.40740966796875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: var(--dl-color-gray-white);
+}
+.webgridview-miscrating02 {
+  top: 1.074066162109375px;
+  left: 0px;
+  width: 80px;
+  height: 16px;
+  position: absolute;
+}
+.webgridview-text038 {
+  left: 86px;
+  color: var(--dl-color-base-color-orange);
+  width: 22px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-buttonbtnbasic04 {
+  top: 240.7010955810547px;
+  left: 239.62158203125px;
+  width: 40px;
+  height: 42.96296691894531px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.07999999821186066) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+}
+.webgridview-iconcontrolfavoriteborder2 {
+  top: 9px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.webgridview-border3 {
+  top: 225.40908813476562px;
+  left: 0px;
+  width: 295px;
+  height: 1px;
+  position: absolute;
+}
+.webgridview-imagetech4 {
+  top: 10px;
+  left: 60px;
+  width: 180px;
+  height: 199px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.webgridview-image22 {
+  top: 14.151110649108887px;
+  left: 6.400000095367432px;
+  width: 167px;
+  height: 175px;
+  position: absolute;
+}
+.webgridview-text040 {
+  top: 315.94378662109375px;
+  left: 13.553955078125px;
+  color: var(--dl-color-base-color-gray800);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.webgridview-group10002 {
+  top: 245.9727783203125px;
+  left: 13.62158203125px;
+  width: 140px;
+  height: 24.703704833984375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text042 {
+  color: var(--dl-color-default-dark);
+  width: 63px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-text044 {
+  top: 4.2962799072265625px;
+  left: 71px;
+  color: var(--dl-color-default-gray500);
+  width: 69px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: line-through;
+}
+.webgridview-buttonbtnbasic05 {
+  top: 378.6111145019531px;
+  left: 14px;
+  width: 139px;
+  height: 40.57257080078125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+}
+.webgridview-iconcontrolchevronright2 {
+  top: 9px;
+  left: 9px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.webgridview-buttonbasetextmd03 {
+  gap: 10px;
+  top: 7px;
+  left: 36px;
+  width: 94px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.webgridview-text046 {
+  color: var(--dl-color-default-primary);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-layoutproductcard133 {
+  top: 1170px;
+  left: 778px;
+  width: 295px;
+  height: 432px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-gray-white);
+}
+.webgridview-rating3 {
+  top: 278.4096984863281px;
+  left: 13.62158203125px;
+  width: 108px;
+  height: 20.266666412353516px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-miscrating03 {
+  top: 1.0666651725769043px;
+  left: 0px;
+  width: 80px;
+  height: 16px;
+  position: absolute;
+}
+.webgridview-text048 {
+  left: 86px;
+  color: var(--dl-color-base-color-orange);
+  width: 22px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-buttonbtnbasic06 {
+  top: 239.0410919189453px;
+  left: 239.62158203125px;
+  width: 40px;
+  height: 42.66666793823242px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.07999999821186066) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+}
+.webgridview-iconcontrolfavoriteborder3 {
+  top: 9px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.webgridview-border4 {
+  top: 223.8545379638672px;
+  left: 0px;
+  width: 295px;
+  height: 1px;
+  position: absolute;
+}
+.webgridview-imagetech6 {
+  top: 8px;
+  left: 60px;
+  width: 180px;
+  height: 199px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.webgridview-image28 {
+  top: 34.49333190917969px;
+  left: 7.199999809265137px;
+  width: 166px;
+  height: 130px;
+  position: absolute;
+}
+.webgridview-text050 {
+  top: 313.7648620605469px;
+  left: 13.553955078125px;
+  color: var(--dl-color-base-color-gray800);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.webgridview-group10003 {
+  top: 244.2764129638672px;
+  left: 13.62158203125px;
+  width: 140px;
+  height: 24.53333282470703px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text052 {
+  color: var(--dl-color-default-dark);
+  width: 63px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-text054 {
+  top: 4.266656398773193px;
+  left: 71px;
+  color: var(--dl-color-default-gray500);
+  width: 69px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: line-through;
+}
+.webgridview-buttonbtnbasic07 {
+  top: 376px;
+  left: 14px;
+  width: 139px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+}
+.webgridview-iconcontrolchevronright3 {
+  top: 9px;
+  left: 9px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.webgridview-buttonbasetextmd04 {
+  gap: 10px;
+  top: 7px;
+  left: 36px;
+  width: 94px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.webgridview-text056 {
+  color: var(--dl-color-default-primary);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-layoutproductcard134 {
+  top: 692px;
+  left: 1114px;
+  width: 295px;
+  height: 432px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-gray-white);
+}
+.webgridview-rating4 {
+  top: 278.4096984863281px;
+  left: 13.62158203125px;
+  width: 108px;
+  height: 20.266666412353516px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-miscrating04 {
+  top: 1.0666651725769043px;
+  left: 0px;
+  width: 80px;
+  height: 16px;
+  position: absolute;
+}
+.webgridview-text058 {
+  left: 86px;
+  color: var(--dl-color-base-color-orange);
+  width: 22px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-buttonbtnbasic08 {
+  top: 239.0410919189453px;
+  left: 239.62158203125px;
+  width: 40px;
+  height: 42.66666793823242px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.07999999821186066) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+}
+.webgridview-iconcontrolfavoriteborder4 {
+  top: 9px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.webgridview-border5 {
+  top: 223.8545379638672px;
+  left: 0px;
+  width: 295px;
+  height: 1px;
+  position: absolute;
+}
+.webgridview-imagetech3 {
+  top: 8px;
+  left: 60px;
+  width: 180px;
+  height: 199px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.webgridview-image23 {
+  top: 10.613333702087402px;
+  left: 9.600000381469727px;
+  width: 161px;
+  height: 178px;
+  position: absolute;
+}
+.webgridview-text060 {
+  top: 313.7648620605469px;
+  left: 13.553955078125px;
+  color: var(--dl-color-base-color-gray800);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.webgridview-group10004 {
+  top: 244.2764129638672px;
+  left: 13.62158203125px;
+  width: 63.000003814697266px;
+  height: 23.46666717529297px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text062 {
+  color: var(--dl-color-default-dark);
+  width: 63px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-buttonbtnbasic09 {
+  top: 376px;
+  left: 14px;
+  width: 139px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+}
+.webgridview-iconcontrolchevronright4 {
+  top: 9px;
+  left: 9px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.webgridview-buttonbasetextmd05 {
+  gap: 10px;
+  top: 7px;
+  left: 36px;
+  width: 94px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.webgridview-text064 {
+  color: var(--dl-color-default-primary);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-layoutproductcard135 {
+  top: 1170px;
+  left: 1114px;
+  width: 295px;
+  height: 432px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-gray-white);
+}
+.webgridview-rating5 {
+  top: 278.4096984863281px;
+  left: 13.62158203125px;
+  width: 108px;
+  height: 20.266666412353516px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-miscrating05 {
+  top: 1.0666651725769043px;
+  left: 0px;
+  width: 80px;
+  height: 16px;
+  position: absolute;
+}
+.webgridview-text066 {
+  left: 86px;
+  color: var(--dl-color-base-color-orange);
+  width: 22px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-buttonbtnbasic10 {
+  top: 239.0410919189453px;
+  left: 239.62158203125px;
+  width: 40px;
+  height: 42.66666793823242px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.07999999821186066) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+}
+.webgridview-iconcontrolfavoriteborder5 {
+  top: 9px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.webgridview-border6 {
+  top: 223.8545379638672px;
+  left: 0px;
+  width: 295px;
+  height: 1px;
+  position: absolute;
+}
+.webgridview-imagetech41 {
+  top: 8px;
+  left: 60px;
+  width: 180px;
+  height: 199px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.webgridview-image221 {
+  top: 14.151110649108887px;
+  left: 6.400000095367432px;
+  width: 167px;
+  height: 175px;
+  position: absolute;
+}
+.webgridview-text068 {
+  top: 313.7648620605469px;
+  left: 13.553955078125px;
+  color: var(--dl-color-base-color-gray800);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.webgridview-group10005 {
+  top: 244.2764129638672px;
+  left: 13.62158203125px;
+  width: 63.000003814697266px;
+  height: 23.46666717529297px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text070 {
+  color: var(--dl-color-default-dark);
+  width: 63px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-buttonbtnbasic11 {
+  top: 376px;
+  left: 14px;
+  width: 139px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+}
+.webgridview-iconcontrolchevronright5 {
+  top: 9px;
+  left: 9px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.webgridview-buttonbasetextmd06 {
+  gap: 10px;
+  top: 7px;
+  left: 36px;
+  width: 94px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.webgridview-text072 {
+  color: var(--dl-color-default-primary);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-formselectboxdone {
+  top: 1666px;
+  left: 1023px;
+  width: 133px;
+  height: 47px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  
+}
+.webgridview-text074 {
+  top: 15px;
+  left: 10px;
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.webgridview-iconcontrolexpandmore1 {
+  top: 12px;
+  left: 101px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+
+
+.webgridview-buttonbtngroup3 {
+  width: 46px;
+  height: 47px;
+}
+.webgridview-buttonbtngroup4 {
+  width: 45px;
+  height: 47px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+}
+.webgridview-buttonbtngroup4:hover{
+	color: white;
+	background-color: black;
+}
+.webgridview-svg-background2 {
+  top: 0px;
+  left: 0px;
+  width: 46px;
+  height: 47px;
+  position: absolute;
+}
+.webgridview-buttonbasetextmd07 {
+  width: 26px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.webgridview-buttonbtngroup5 {
+  width: 46px;
+  height: 47px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+}
+.webgridview-buttonbtngroup5:hover{
+	color: white;
+	background-color: black;
+}
+.webgridview-svg-background3 {
+  top: 0px;
+  left: 0px;
+  width: 46px;
+  height: 47px;
+  position: absolute;
+}
+.webgridview-buttonbasetextmd08 {
+  gap: 10px;
+  top: 15px;
+  left: 40px;
+  width: 26px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.webgridview-text077 {
+  color: var(--dl-color-default-dark);
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+.webgridview-buttonbtngroup6 {
+  width: 45.62211990356445px;
+  height: 47px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+}
+.webgridview-buttonbtngroup6:hover{
+	color: white;
+	background-color: black;
+}
+.webgridview-svg-background4 {
+  top: 0px;
+  left: 0px;
+  width: 46px;
+  height: 47px;
+  position: absolute;
+}
+.webgridview-buttonbasetextmd09 {
+  gap: 10px;
+  top: 15px;
+  left: 10px;
+  width: 26px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.webgridview-text078 {
+  color: var(--dl-color-default-dark);
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+.webgridview-buttonbtngroup7 {
+  width: 46px;
+  height: 47px;
+}
+.webgridview-layoutnewsletteralibaba {
+  top: 1880px;
+  left: 0px;
+  width: 1520px;
+  height: 190px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-bg2 {
+  top: 0px;
+  left: 0px;
+  width: 1520px;
+  height: 190px;
+  position: absolute;
+}
+.webgridview-textform {
+  top: 38px;
+  left: 434.8888854980469px;
+  width: 651.2777099609375px;
+  height: 113px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-form {
+  top: 73px;
+  left: 119.27780151367188px;
+  width: 410.7221984863281px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-formiconinput {
+  top: 0px;
+  left: 0px;
+  width: 289.22222900390625px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-iconemail {
+  top: 9px;
+  left: 8px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.webgridview-textinput1 {
+  width: 100%;
+  height: 100%;
+  padding-left: 35px;
+}
+.webgridview-buttonbtnbasic12 {
+  gap: 10px;
+  top: 0px;
+  left: 300.7221984863281px;
+  height: 40px;
+  display: flex;
+  padding: 0 16px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-default-primarygradient);
+  background-image: linear-gradient(180deg, rgba(18, 127, 255, 1) 0%, rgba(0, 103, 255, 1) 100%);
+  color: white;
+  cursor: pointer;
+}
+.webgridview-buttonbasetextmd10 {
+  gap: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.webgridview-text079 {
+  color: var(--dl-color-default-white);
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+.webgridview-text081 {
+  top: 0px;
+  left: 0px;
+  width: 651.2777099609375px;
+  height: 52px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text082 {
+  top: 28px;
+  color: var(--dl-color-base-color-gray800);
+  width: 651px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 24px;
+}
+.webgridview-text084 {
+  left: 190.66665649414062px;
+  color: var(--dl-color-base-color-dark);
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: 28px;
+}
+.webgridview-layoutfooteralibaba {
+  top: 2070px;
+  left: 1px;
+  width: 1520px;
+  height: 324px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.webgridview-col {
+  top: 40px;
+  left: 1017.5555419921875px;
+  width: 90px;
+  height: 137px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text086 {
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 22px;
+}
+.webgridview-text088 {
+  top: 32px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text090 {
+  top: 59px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text092 {
+  top: 86px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.webgridview-text094 {
+  top: 113px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text094:hover {
+	color:darkcyan;
+}
+
+.webgridview-text092 :hover {
+	color:darkcyan;
+}
+.webgridview-text088:hover {
+	color:darkcyan;
+}
+.webgridview-text090:hover {
+	color:darkcyan;
+}
+.webgridview-group522 {
+  top: 40px;
+  left: 136.1666717529297px;
+  width: 291.33331298828125px;
+  height: 157px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-brandlogocolored1 {
+  top: 0px;
+  left: 0px;
+  width: 184px;
+  height: 59px;
+  position: absolute;
+}
+.webgridview-text096 {
+  top: 61px;
+  color: var(--dl-color-default-gray600);
+  width: 291px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+}
+.webgridview-group987 {
+  top: 125px;
+  left: 0px;
+  width: 167.8333282470703px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-iconcontactsocialfacebook3 {
+  top: 0px;
+  left: 0px;
+  width: 34px;
+  height: 32px;
+  position: absolute;
+  cursor: pointer;
+}
+.webgridview-iconcontactsocialtwitter3 {
+  top: 0px;
+  left: 44.33332824707031px;
+  width: 34px;
+  height: 32px;
+  position: absolute;
+  cursor: pointer;
+}
+.webgridview-iconcontactsociallinkedin3 {
+  top: 0px;
+  left: 88.66665649414062px;
+  width: 34px;
+  height: 32px;
+  position: absolute;
+  cursor: pointer;
+}
+.webgridview-iconcontactsocialyoutube3 {
+  top: 0px;
+  left: 134.05555725097656px;
+  width: 34px;
+  height: 32px;
+  position: absolute;
+  cursor: pointer;
+}
+.webgridview-group988 {
+  top: 256px;
+  left: 0px;
+  width: 1520px;
+  height: 68px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(239, 242, 244, 1);
+}
+.webgridview-paymentmethodlanguage {
+  top: 0px;
+  left: 135.11111450195312px;
+  width: 337.77777099609375px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text098 {
+  color: #999999;
+  width: 338px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  font-size: 14px;
+}
+.webgridview-col1 {
+  top: 40px;
+  left: 1191.72216796875px;
+  width: 130.888916015625px;
+  height: 129px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-miscmarketbutton {
+  top: 37px;
+  left: 0px;
+  width: 130.888916015625px;
+  height: 42px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-group {
+  top: 0px;
+  left: 0px;
+  width: 130.888916015625px;
+  height: 42px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(28, 28, 28, 1);
+}
+.webgridview-subtract {
+  top: 8.689655303955078px;
+  left: 11.54902172088623px;
+  width: 108px;
+  height: 25px;
+  position: absolute;
+}
+.webgridview-miscmarketbutton1 {
+  top: 87px;
+  left: 0px;
+  width: 130.888916015625px;
+  height: 42px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-group1 {
+  top: 0px;
+  left: 0px;
+  width: 130.888916015625px;
+  height: 42px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(28, 28, 28, 1);
+}
+.webgridview-logo {
+  top: 8.689655303955078px;
+  left: 11.54902172088623px;
+  width: 108px;
+  height: 25px;
+  position: absolute;
+}
+.webgridview-text100 {
+  left: 1.0556640625px;
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 22px;
+}
+.webgridview-col2 {
+  top: 40px;
+  left: 807.5px;
+  width: 120px;
+  height: 137px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text102 {
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 22px;
+}
+.webgridview-text104 {
+  top: 32px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text106 {
+  top: 59px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text108 {
+  top: 86px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text110 {
+  top: 113px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text104:hover {
+	color:darkcyan;
+}
+
+.webgridview-text106 :hover {
+	color:darkcyan;
+}
+.webgridview-text108:hover {
+	color:darkcyan;
+}
+.webgridview-text110:hover {
+	color:darkcyan;
+}
+.webgridview-col3 {
+  top: 40px;
+  left: 644.9444580078125px;
+  width: 90px;
+  height: 137px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text112 {
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 22px;
+}
+.webgridview-text114 {
+  top: 32px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text116 {
+  top: 59px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text118 {
+  top: 86px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text120 {
+  top: 113px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text114:hover {
+	color:darkcyan;
+}
+
+.webgridview-text116 :hover {
+	color:darkcyan;
+}
+.webgridview-text118:hover {
+	color:darkcyan;
+}
+.webgridview-text120:hover {
+	color:darkcyan;
+}
+.webgridview-col4 {
+  top: 40px;
+  left: 491.8888854980469px;
+  width: 81px;
+  height: 137px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text122 {
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 22px;
+}
+.webgridview-text124 {
+  top: 32px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text126 {
+  top: 59px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text128 {
+  top: 86px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text130 {
+  top: 113px;
+  color: var(--dl-color-default-gray500);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 24px;
+  cursor: pointer;
+}
+.webgridview-text130:hover {
+	color:darkcyan;
+}
+
+.webgridview-text124 :hover {
+	color:darkcyan;
+}
+.webgridview-text126:hover {
+	color:darkcyan;
+}
+.webgridview-text128:hover {
+	color:darkcyan;
+}
+.webgridview-sectionmain {
+  top: 161.58680725097656px;
+  left: 99px;
+  width: 1317px;
+  height: 400.4131774902344px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-bgcard {
+  top: 0.4131898880004883px;
+  left: 2.78910231590271px;
+  width: 1314px;
+  height: 400px;
+  position: absolute;
+}
+.webgridview-banner {
+  top: 0px;
+  left: 0px;
+  width: 1015.994140625px;
+  height: 314.27880859375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-maskgroup {
+  top: 0px;
+  left: 0px;
+  width: 1015.994140625px;
+  height: 314.27880859375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-bannerboard800x4202 {
+  top: 12px;
+  right: -31px;
+  width: 1028px;
+  height: 357px;
+  position: absolute;
+}
+.webgridview-text132 {
+  top: 130.31358337402344px;
+  left: 46.72509002685547px;
+  width: 365.3969421386719px;
+  height: 89.7302474975586px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text133 {
+  top: -2.2737367544323206e-13px;
+  left: 1.4438899755477905px;
+  color: var(--dl-color-base-color-dark);
+  width: 290px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.webgridview-text135 {
+  top: 41.79218673706055px;
+  color: var(--dl-color-base-color-dark);
+  width: 365px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.webgridview-buttonbtnbasic13 {
+  gap: 10px;
+  top: 240.94004821777344px;
+  left: 48.16898727416992px;
+  width: 171.86651611328125px;
+  height: 49.167259216308594px;
+  display: flex;
+  padding: 0 16px;
+  position: absolute;
+  box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.07999999821186066) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+  cursor: pointer;
+}
+.webgridview-buttonbtnbasic13:hover{
+	color: white;
+	background-color:rgb(34, 108, 245);
+}
+.webgridview-buttonbasetextmd11 {
+  gap: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.webgridview-text137 {
+  color: var(--dl-color-default-dark);
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+.webgridview-rectangle300 {
+  top: 14.413189888000488px;
+  left: 1084.853515625px;
+  width: 201px;
+  height: 150px;
+  position: absolute;
+  border-radius: 6px;
+}
+.webgridview-text139 {
+  top: 31.413188934326172px;
+  left: 1148.314697265625px;
+  color: var(--dl-color-default-dark);
+  width: 113px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-buttonbtnbasic14 {
+  gap: 10px;
+  top: 85.41319274902344px;
+  left: 1094.9268798828125px;
+  width: 181.31678771972656px;
+  height: 30px;
+  display: flex;
+  padding: 0 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-default-primarygradient);
+  color: white;
+  background-image: linear-gradient(180deg, rgba(18, 127, 255, 1) 0%, rgba(0, 103, 255, 1) 100%);
+}
+.webgridview-buttonbasetextsm {
+  gap: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.webgridview-text141 {
+  color: var(--dl-color-default-white);
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+.webgridview-buttonbtnbasic15 {
+  gap: 10px;
+  top: 122.41319274902344px;
+  left: 1094.9268798828125px;
+  width: 181.31678771972656px;
+  height: 30px;
+  display: flex;
+  padding: 0 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+  background-color: white;
+  cursor: pointer;
+}
+.webgridview-buttonbtnbasic15:hover {
+	color: white;
+	background-color:rgb(34, 108, 245);
+}
+.webgridview-buttonbasetextsm1 {
+  gap: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.webgridview-text143 {
+  color: var(--dl-color-default-primary);
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+.webgridview-avatar {
+  top: 28.413188934326172px;
+  left: 1094.9268798828125px;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+}
+.webgridview-block {
+  top: 174.41319274902344px;
+  left: 1084.853515625px;
+  width: 201.46310424804688px;
+  height: 95px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(243, 131, 49, 1);
+}
+.webgridview-text145 {
+  top: 16px;
+  left: 16.116992950439453px;
+  color: var(--dl-color-default-white);
+  width: 145px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-block1 {
+  top: 279.4131774902344px;
+  left: 1084.853515625px;
+  width: 201.46310424804688px;
+  height: 95px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(84, 188, 195, 1);
+}
+.webgridview-text147 {
+  top: 16px;
+  left: 16.116992950439453px;
+  color: var(--dl-color-default-white);
+  width: 141px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-sidebar {
+  top: 596px;
+  left: 99.00006103515625px;
+  width: 280px;
+  height: 1017.9087524414062px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-group999 {
+  top: 816.8464965820312px;
+  left: 0px;
+  width: 275.7373962402344px;
+  height: 201.062255859375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-layoutcollablseheading {
+  top: 0px;
+  left: 0px;
+  width: 275.7373962402344px;
+  height: 50.78838348388672px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.webgridview-text149 {
+  top: 15px;
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-iconcontrolexpandless {
+  top: 13px;
+  left: 252px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.webgridview-group997 {
+  top: 50.78835678100586px;
+  left: 0px;
+  width: 143px;
+  height: 150.27389526367188px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-formchecklabel {
+  top: 0px;
+  left: 0px;
+  display: flex;
+  padding: 6px 16px 6px 0;
+  position: absolute;
+  align-items: center;
+}
+.webgridview-formselectioncheckboxoff {
+  width: 34px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-checkbox {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-left: 2px;
+  border-color: rgba(189, 189, 189, 1);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.webgridview-miscrating06 {
+  width: 93px;
+  height: 18px;
+}
+.webgridview-formchecklabel1 {
+  top: 38.09131622314453px;
+  left: 0px;
+  display: flex;
+  padding: 6px 16px 6px 0;
+  position: absolute;
+  align-items: center;
+}
+.webgridview-formselectioncheckboxoff1 {
+  width: 34px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-checkbox1 {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-left: 2px;
+  border-color: rgba(189, 189, 189, 1);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.webgridview-miscrating07 {
+  width: 93px;
+  height: 18px;
+}
+.webgridview-formchecklabel2 {
+  top: 76.18260192871094px;
+  left: 0px;
+  display: flex;
+  padding: 6px 16px 6px 0;
+  position: absolute;
+  align-items: center;
+}
+.webgridview-formselectioncheckboxoff2 {
+  width: 34px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-checkbox2 {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-left: 2px;
+  border-color: rgba(189, 189, 189, 1);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.webgridview-miscrating08 {
+  width: 93px;
+  height: 18px;
+}
+.webgridview-formchecklabel3 {
+  top: 114.27388763427734px;
+  left: 0px;
+  display: flex;
+  padding: 6px 16px 6px 0;
+  position: absolute;
+  align-items: center;
+}
+.webgridview-formselectioncheckboxoff3 {
+  width: 34px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-checkbox3 {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-left: 2px;
+  border-color: rgba(189, 189, 189, 1);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.webgridview-miscrating09 {
+  width: 93px;
+  height: 18px;
+}
+.webgridview-group992 {
+  top: 262.4066467285156px;
+  left: 14.988525390625px;
+  width: 275.7373962402344px;
+  height: 279.3360900878906px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-layoutcollablseheading1 {
+  top: 0px;
+  left: 0px;
+  width: 275.7373962402344px;
+  height: 50.78838348388672px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.webgridview-text151 {
+  top: 15px;
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-iconcontrolexpandless1 {
+  top: 13px;
+  left: 252px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.webgridview-group1001 {
+  top: 50.78840637207031px;
+  left: 1.198974609375px;
+  width: 274.53851318359375px;
+  height: 228.54771423339844px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-layoutnavitem {
+  top: 190.45639038085938px;
+  left: 0px;
+  width: 274.53851318359375px;
+  height: 38.091285705566406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-text153 {
+  top: 10px;
+  color: var(--dl-color-default-primary);
+  width: 264px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.webgridview-formchecklabel4 {
+  top: 0px;
+  left: 0px;
+  width: 137.26925659179688px;
+  display: flex;
+  padding: 6px 16px 6px 0;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+.webgridview-formselectioncheckboxoff4 {
+  width: 34px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-checkbox4 {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-left: 2px;
+  border-color: rgba(189, 189, 189, 1);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.webgridview-text155 {
+  color: var(--dl-color-default-dark);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.webgridview-formchecklabel5 {
+  top: 76.18252563476562px;
+  left: 0px;
+  width: 121.2545166015625px;
+  display: flex;
+  padding: 6px 16px 6px 0;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+.webgridview-formselectioncheckboxoff5 {
+  width: 34px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-checkbox5 {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-left: 2px;
+  border-color: rgba(189, 189, 189, 1);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.webgridview-text157 {
+  color: var(--dl-color-default-dark);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.webgridview-formchecklabel6 {
+  top: 38.09123992919922px;
+  left: 0px;
+  width: 107.527587890625px;
+  display: flex;
+  padding: 6px 16px 6px 0;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+.webgridview-formselectioncheckboxoff6 {
+  width: 34px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-checkbox6 {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-left: 2px;
+  border-color: rgba(189, 189, 189, 1);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.webgridview-text159 {
+  color: var(--dl-color-default-dark);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.webgridview-formchecklabel7 {
+  top: 114.27381134033203px;
+  left: 0px;
+  width: 112.10322570800781px;
+  display: flex;
+  padding: 6px 16px 6px 0;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+.webgridview-formselectioncheckboxoff7 {
+  width: 34px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-checkbox7 {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-left: 2px;
+  border-color: rgba(189, 189, 189, 1);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.webgridview-text161 {
+  color: var(--dl-color-default-dark);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.webgridview-formchecklabel8 {
+  top: 152.36509704589844px;
+  left: 0px;
+  width: 121.2545166015625px;
+  display: flex;
+  padding: 6px 16px 6px 0;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+.webgridview-formselectioncheckboxoff8 {
+  width: 34px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-checkbox8 {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-left: 2px;
+  border-color: rgba(189, 189, 189, 1);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.webgridview-text163 {
+  color: var(--dl-color-default-dark);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.webgridview-group996 {
+  top: 565.020751953125px;
+  left: 3px;
+  width: 275.9151611328125px;
+  height: 169.29458618164062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-layoutcollablseheading2 {
+  top: 0px;
+  left: 0.177734375px;
+  width: 275.7373962402344px;
+  height: 50.78838348388672px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.webgridview-text165 {
+  top: 15px;
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-iconcontrolexpandless2 {
+  top: 13px;
+  left: 252px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.webgridview-group995 {
+  top: 59.25310516357422px;
+  left: 0px;
+  width: 275.9151611328125px;
+  height: 180px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-form-range {
+  top: 0px;
+  left: 0.177734375px;
+  width: 275.7373962402344px;
+  height: 21.16182518005371px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-line {
+  top: 8.464730262756348px;
+  left: 0px;
+  width: 275.7373962402344px;
+  height: 4.232364654541016px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(175, 207, 255, 1);
+}
+.webgridview-lineactive {
+  top: 0px;
+  left: 76.75px;
+  width: 107px;
+  height: 4px;
+  position: absolute;
+  border-radius: 2px;
+}
+.webgridview-control {
+  top: 1px;
+  left: 71px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  box-shadow: 0px 2px 4px 0px rgba(16, 0, 0, 0.10000000149011612) ;
+}
+.webgridview-control1 {
+  top: 1px;
+  left: 169px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  box-shadow: 0px 2px 4px 0px rgba(16, 0, 0, 0.10000000149011612) ;
+}
+.webgridview-formlabelinput {
+  top: 42.323646545410156px;
+  left: 0.177734375px;
+  width: 133.07325744628906px;
+  height: 67.71784210205078px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-formbaselabeltitle {
+  top: 0px;
+  left: 0px;
+  width: 133px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-text167 {
+  color: var(--dl-color-default-dark);
+  width: 133px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.webgridview-forminputbasic {
+  top: 24px;
+  left: 0px;
+  width: 133px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-textinput2 {
+  width: 130px;
+  height: 100%;
+  padding-left: 10px;
+}
+.webgridview-formlabelinput1 {
+  top: 42.323646545410156px;
+  left: 144.040771484375px;
+  width: 131.87440490722656px;
+  height: 67.71784210205078px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-formbaselabeltitle1 {
+  top: 0px;
+  left: 0px;
+  width: 132px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-text169 {
+  color: var(--dl-color-default-dark);
+  width: 132px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.webgridview-forminputbasic1 {
+  top: 24px;
+  left: 0px;
+  width: 132px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-textinput3 {
+  width: 130px;
+  height: 100%;
+  padding-left: 10px;
+}
+.webgridview-buttonbtnbasic16 {
+  gap: 10px;
+  left: 0px;
+  width: 274px;
+  bottom: 17px;
+  height: 37.24814987182617px;
+  display: flex;
+  padding: 0 16px;
+  position: absolute;
+  box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.07999999821186066) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+  color: rgb(34, 108, 245);
+    cursor: pointer;
+}
+.webgridview-buttonbtnbasic16:hover{
+	color: white;
+	background-color: rgb(34, 108, 245);
+}
+.webgridview-buttonbasetextmd12 {
+  gap: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.webgridview-text171 {
+  color: var(--dl-color-default-primary);
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+.webgridview-layoutnavitem1 {
+  top: 50.78838348388672px;
+  left: 14.988525390625px;
+  width: 287.7259521484375px;
+  height: 38.091285705566406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-text173 {
+  top: 10px;
+  color: var(--dl-color-default-gray600);
+  width: 277px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-layoutnavitem2 {
+  top: 126.97095489501953px;
+  left: 14.988525390625px;
+  width: 275.7373962402344px;
+  height: 38.091285705566406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-text175 {
+  top: 10px;
+  color: var(--dl-color-default-gray600);
+  width: 265px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-layoutnavitem3 {
+  top: 203.15353393554688px;
+  left: 14.988525390625px;
+  width: 275.7373962402344px;
+  height: 38.091285705566406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-text177 {
+  top: 10px;
+  color: var(--dl-color-default-primary);
+  width: 265px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-layoutnavitem4 {
+  top: 88.87966918945312px;
+  left: 14.988525390625px;
+  width: 275.7373962402344px;
+  height: 38.091285705566406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-text179 {
+  top: 10px;
+  color: var(--dl-color-default-gray600);
+  width: 265px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-layoutnavitem5 {
+  top: 165.06224060058594px;
+  left: 14.988525390625px;
+  width: 275.7373962402344px;
+  height: 38.091285705566406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.webgridview-text181 {
+  top: 10px;
+  color: var(--dl-color-default-gray600);
+  width: 265px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-layoutcollablseheading3 {
+  top: 0px;
+  left: 14.988525390625px;
+  width: 275.7373962402344px;
+  height: 50.78838348388672px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+.webgridview-text183 {
+  top: 15px;
+  color: var(--dl-color-default-dark);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.webgridview-iconcontrolexpandless3 {
+  top: 13px;
+  left: 252px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.webgridview-Category{
+	line-height: 2;
+	cursor: pointer;
+}
+.webgridview-Category.active {
+    color: darkcyan; /* Màu chữ xanh khi phần tử có lớp "active" */
+}
+
+.accordion-header .fa-chevron-down{
+	color: white;
+	left: 100px;
+}
+        #wrapper {
+            margin: 0px auto;
+        }
+         
+        .accordion-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #0c81bb;
+            padding: 10px 10px;
+            color: #fff;
+            cursor: pointer;
+            width: 280px;
+        }
+        .accordion-item.active .accordion-header {
+            background: #e4e4e4;
+            color: rgb(0, 0, 0);
+        }
+        
+        .accordion-item .fa-chevron-down {
+            transition: all 0.3s;
+        }
+         
+        .accordion-item.active .fa-chevron-down {
+            transform: rotate(180deg);
+            color: black;
+        }
+
+        .accordion-body {
+            padding: 15px 0px;
+            color: rgba(79, 79, 79, 1);
+            
+        }
+        .accordion-body .webgridview-Category:hover{
+			color:darkcyan; 
+		}
+        .webgridview{
+			display: flex;
+
+		}
+    .webgridview-formselectioncheckboxoff04 {
+        height: 24px;
+        display: flex;
+        position: relative;
+        align-items: flex-start;
+        flex-shrink: 0;
+        margin: 0px 0px 15px;
+    }
+    .webgridview-checkbox04 {
+      width: 20px;
+      height: 20px;
+      margin-right:10px
+      }
+      .price-range-search {
+        background-color:#fff;
+        width: 97%;
+        color: rgb(34, 108, 245);
+        border:1px solid rgba(221, 225, 230, 1);
+        height: 32px;
+        border-radius: 5px;
+        margin:10px 0px;
+        font-size:16px;
+       cursor: pointer;
+    }
+    .price-range-search:hover{
+      background-color:rgb(34, 108, 245);
+      color: #fff;
+      transition:all 0.3s;
+    }
+    
+    .slider {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 15px;
+      border-radius: 5px;
+      background: #d3d3d3;
+      outline: none;
+      opacity: 0.7;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+      width: 280px;
+    }
+    
+    .slider:hover {
+      opacity: 1;
+    }
+    
+    .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: #04AA6D;
+      cursor: pointer;
+    }
+    
+    .slider::-moz-range-thumb {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: #04AA6D;
+      cursor: pointer;
+    }
+.webgridview-layoutproductcard{
+  top: 692px;
+  left: 440px;
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+ 
+}
+.webgridview-layoutproductcard .card{
+    height: 432px;
+    width: 295px;
+    margin: 0px 40px 40px 0px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.webgridview-layoutproductcard .card-img{
+  top: 8px;
+  left: 60px;
+  width: 180px;
+  height: 199px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.webgridview-layoutproductcard .webgridview-buttonbtnbasic{
+  top: 10px;
+  left: 240px;
+  width: 40px;
+  height: 42.66666793823242px;
+  display: flex;
+  position: relative;
+  box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.07999999821186066) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+  cursor: pointer;
+}
+.webgridview-layoutproductcard .webgridview-buttonbtnbasic:hover{
+	background-color: rgb(34, 108, 245);
+}
+.webgridview-layoutproductcard .webgridview-buttonbtnbasic:hover i{
+	color:white;
+}
+.webgridview-layoutproductcard .webgridview-frame273 {
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  top: auto;  
+  justify-content: end
+}
+
+/*hiện sản phẩm theo chiều dọc*/
+
+.webgridview-layoutproductcard.vertical{
+  top: 675px;
+  left: 435px;
+  width: 1100px;
+  height: auto;
+  flex-wrap: wrap;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+ 
+}
+.horizontal {
+    /* CSS cho chế độ horizontal */
+    display: flex;
+    flex-wrap: wrap;
+    /* Thêm các thuộc tính khác dành cho chế độ horizontal nếu cần */
+}
+
+.vertical {
+    /* CSS cho chế độ vertical */
+    display: block;
+    /* Thêm các thuộc tính khác dành cho chế độ vertical nếu cần */
+}
+
+.webgridview-layoutproductcard.vertical .card{
+    height: 170px;
+    width: 976px;
+    margin: 0px 20px 20px 0px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.webgridview-layoutproductcard.vertical .card-body{
+    display: flex;
+}
+.webgridview-layoutproductcard.vertical .card-img{
+  top: 20px;
+  width: 200px;
+  height: 139px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: -20px
+}
+.webgridview-layoutproductcard.vertical .webgridview-image33{
+  top: -10px;
+  left: 10px;
+  width: 150px;
+  height: auto;
+  position: absolute;
+}
+.webgridview-layoutproductcard.vertical .webgridview-content{
+  padding: 0px 30px;
+  margin-top: -30px
+}
+.webgridview-layoutproductcard.vertical .webgridview-buttonbtnbasic{
+  top: 0px;
+  margin-left: 460px;
+    width: 40px;
+  height: 42.66666793823242px;
+  display: flex;
+  position: relative;
+  box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.07999999821186066) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+  cursor: pointer;
+}
+.webgridview-layoutproductcard.vertical .webgridview-buttonbtnbasic:hover{
+	background-color: rgb(34, 108, 245);
+}
+.webgridview-layoutproductcard.vertical .webgridview-buttonbtnbasic:hover i{
+	color:white;
+}
+
+.webgridview-group1000 {
+  top: 40px;
+  left: 13.62158203125px;
+  width: 100%;
+  height: 24.53333282470703px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-text022 {
+  color: var(--dl-color-default-dark);
+  width: auto;
+  height: auto;
+  position: relative;
+  text-align: left;
+  line-height: normal;
+  padding: 0px 10px 0px 0px;
+}
+.webgridview-text024 {
+  top: 0px;
+  color: var(--dl-color-default-gray500);
+  width: 90px;
+  height: auto;
+  position: relative;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: line-through; 
+}
+.webgridview-rating {
+  top: 50px;
+  left: 13.62158203125px;
+  width: 108px;
+  height: 20.266666412353516px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.webgridview-miscrating {
+  top: 1.0666651725769043px;
+  left: 0px;
+  width: 80px;
+  height: 16px;
+  position: absolute;
+}
+.webgridview-text018 {
+  left: 86px;
+  color: var(--dl-color-base-color-orange);
+  width: 22px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+
+
+.fa-heart {
+  top: 14px;
+  left: 9px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  color: rgb(34, 108, 245);
+}
+.webgridview-titleproduct {
+  top: 25px;
+  left: 13px;
+  width: 200px;
+  color: var(--dl-color-base-color-gray800);
+  height: auto;
+  position: relative;
+  text-align: left;
+  word-wrap: break-word;
+}
+.webgridview-buttonbtnbasic01 {
+  top: 40px;
+  left: 14px;
+  width: 139px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(221, 225, 230, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: var(--dl-color-default-white);
+  color: rgb(34, 108, 245);
+  cursor: pointer;
+}
+.webgridview-buttonbtnbasic01:hover{
+	color: white;
+	background-color:rgb(34, 108, 245);
+}
+.webgridview-buttonbtnbasic01:hover i{
+	color: white;
+	background-color:rgb(34, 108, 245);
+}
+
+
+.text-view-details{
+  margin-top: 9px;
+  margin-left: 20%;
+  font-size: 15px;
+}
+.fa-solid{
+  top: 12px;
+  left: 10px;
+  width: 15px;
+  height: 18px;
+  position: absolute;
+  color: rgb(34, 108, 245);
+}
+
+
+.page-item {
+  width: 45px;
+  height: 47px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+}
+.page-item:hover{
+	color: white;
+	background-color: black;
+}
+.webgridview-Page{
+    width: 970px;
+}
+.webgridview-layoutproductcard.horizontal .webgridview-frame273,
+.webgridview-layoutproductcard.vertical .webgridview-frame273 {
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  top: auto;  
+  justify-content: end
+}
+

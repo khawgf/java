@@ -1,0 +1,260 @@
+ body{
+    --bg-primary-btn: var(--color-bg-brand, #0d99ff);
+ }
+
+.info{
+    width: 800px;
+    height: 70px;
+    margin-left: 180px;
+    margin-top: 20px;
+    padding-top: 110px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+    
+    font-size: 20px;
+}
+.info input{
+    outline: none;
+    margin-left: 30px;
+    width: 350px;
+    height: 25px;
+}
+/* Cart */
+.list-cart
+{
+    padding-top: 40px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-cart table{
+    width: 75vw;
+    height: 35px;  
+}
+.list-cart table, td, th{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-collapse: collapse;
+}
+.list-cart table, th{
+    padding-bottom: 17px;
+    font-size: 15px;
+}
+.list-cart .button{
+    background-color: red;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    width: 50px;
+    height: 40px;
+}
+.list-cart .input{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+.list-cart .image{
+    width: 170px;
+    height: 150px;
+}
+
+.list-Invoice
+{
+    padding-top: 120px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-Invoice table{
+    width: 75vw;
+    height: 35px;  
+}
+.list-Invoice table, td, th{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-collapse: collapse;
+}
+.list-Invoice table, th{
+    padding-bottom: 17px;
+    font-size: 15px;
+}
+.list-Invoice .button{
+    background-color: red;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    width: 50px;
+    height: 40px;
+}
+.list-Invoice .input{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+.list-Invoice .image{
+    width: 170px;
+    height: 150px;
+}
+/* Total */
+.total{
+    display: flex;
+    justify-content: center;
+}
+.total .left, .right{
+    margin-top: 50px;
+    width: 560px;
+    height: 250px;
+}
+.left input{
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #000;
+}
+.left button{
+    width: 70px;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    background-color: var(--bg-primary-btn);
+    
+    border: none;
+    cursor: pointer;
+}
+.total .right{
+    font-size: 12px;
+}
+.total .right .title-total{
+    display: flex;
+    margin: 20px 0px 10px 10px;
+    justify-content: right;
+}
+.total .right .title-total .title1{
+    position: absolute;
+    margin-right: 285px;
+}
+.total .right button{
+    width: 389px;
+    height: 40px;
+    font-size: 15px;
+
+    color: white;
+    background-color: var(--bg-primary-btn);
+    
+    border: none;
+    cursor: pointer;
+}
+.total .right .btnPayment{
+    padding-left: 170px;
+}
+.header__has__login {
+  margin-left: -60px;
+  align-items: center;
+  position: relative;
+  margin-top: 5px;
+  
+}
+
+.header__has__login img{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+
+
+.header__has__login span{
+  color: #ccc;
+  text-align: center;
+  align-items: center;
+  padding: 4px;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.has__login-list{
+  margin-top: 4px;
+  border-radius: 5px;
+  position: absolute;
+  padding: 8px;
+  top: 100%;
+  list-style: none;
+  box-shadow: 0 1px 5px #999;
+  background-color: whitesmoke;
+  width: 150px;
+  animation: fadeIn ease-in 0.5s;
+  display: none;
+  z-index: 1000;
+}
+
+
+.has__login-list::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -8px;
+  right: 0;
+  width: 100%;
+  height: 8px;
+  
+}
+
+.header__has__login:hover{
+  cursor: pointer;
+}
+
+.has__login-item a:hover{
+  color: #FCB35F;
+}
+
+@keyframes fadeIn{
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.header__has__login:hover .has__login-list{
+  display: block;
+}
+
+.has__login-item{
+  padding: 8px 4px;
+  font-family: sans-serif;
+  font-size: 15px;
+  border-bottom: 2px solid black;
+}
+
+.has__login-item:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.has__login-item a{
+  text-decoration: none;
+  color: #333;
+}
+.img-titleCart{
+    text-align: left;
+        padding-bottom: 17px;
+    font-size: 15px;
+    padding-left: 50px;
+}
+
